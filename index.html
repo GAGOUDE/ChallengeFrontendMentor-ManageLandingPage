@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- CSS Link -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@100;300;400;500;700&display=swap"
+    rel="stylesheet">
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"></script>
+
+  <title>Frontend Mentor | Manage landing page</title>
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="overlay"></div>
+    <div class="logo">
+      <img src="images/logo.svg" alt="">
+    </div>
+    <nav class="navigation">
+      <ul>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Community</a></li>
+      </ul>
+      <button class="btn btn-1">Get Started</button>
+    </nav>
+    <div class="hamburger toggleMenu">
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-section-left">
+      <h1> Bring everyone together to build better products.</h1>
+      <p>Manage makes it simple for software teams to plan day-to-day
+        tasks while keeping the larger team goals in view.</p>
+      <button class="btn btn-1">Get Started</button>
+    </div>
+    <div class="hero-section-right">
+      <img src="images/illustration-intro.svg" alt="">
+    </div>
+
+    <div class="hero-section-Design-Right">
+      <img src="" alt="">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <div class="about-left">
+      <h2>What’s different about Manage?</h2>
+      <p>Manage provides all the functionality your team needs, without
+        the complexity. Our software is tailor-made for modern digital
+        product teams.</p>
+    </div>
+    <div class="about-right">
+      <div class="about-right-card">
+        <div class="about-right-card-btn">
+          <button class="btn-about">01</button>
+        </div>
+        <div class="about-right-card-description">
+          <h4>Track company-wide progress</h4>
+          <p>See how your day-to-day tasks fit into the wider vision. Go from
+            tracking progress at the milestone level all the way done to the
+            smallest of details. Never lose sight of the bigger picture again.</p>
+        </div>
+      </div>
+
+      <div class="about-right-card">
+        <div class="about-right-card-btn">
+          <button class="btn-about">02</button>
+        </div>
+        <div class="about-right-card-description">
+          <h4>Advanced built-in reports</h4>
+          <p>Set internal delivery estimates and track progress toward company
+            goals. Our customisable dashboard helps you build out the reports
+            you need to keep key stakeholders informed.</p>
+        </div>
+      </div>
+
+      <div class="about-right-card">
+        <div class="about-right-card-btn">
+          <button class="btn-about">03</button>
+        </div>
+        <div class="about-right-card-description">
+          <h4>Everything you need in one place</h4>
+          <p>Stop jumping from one service to another to communicate, store files, track tasks and share documents.
+            Manage
+            offers an all-in-one team productivity solution.</p>
+        </div>
+      </div>
+    </div>
+    <div class="aboutDesign">
+      <img src="images/bg-tablet-pattern.svg" alt="">
+    </div>
+  </section>
+
+  <!-- Testimonial section -->
+  <section id="testimonial-section">
+    <div class="container">
+      <h2>What they’ve said</h2>
+      <div class="testimonial-contents">
+        <div class="testimonial" id="test-1">
+          <div class="testimonial-photo">
+            <img src="images/avatar-anisha.png">
+          </div>
+          <h4>Anisha Li</h4>
+          <p>“Manage has supercharged our team’s workflow. The ability to maintain
+            visibility on larger milestones at all times keeps everyone motivated.”</p>
+        </div>
+
+        <div class="testimonial active" id="test-2">
+          <div class="testimonial-photo">
+            <img src="images/avatar-ali.png">
+          </div>
+          <h4>Ali Bravo</h4>
+          <p>“We have been able to cancel so many other subscriptions since using
+            Manage. There is no more cross-channel confusion and everyone is much
+            more focused.”</p>
+        </div>
+
+        <div class="testimonial" id="test-3">
+          <div class="testimonial-photo">
+            <img src="images/avatar-richard.png">
+          </div>
+          <h4>Richard Watts</h4>
+          <p>“Manage allows us to provide structure and process. It keeps us organized
+            and focused. I can’t stop recommending them to everyone I talk to!”</p>
+        </div>
+
+        <div class="testimonial" id="test-4">
+          <div class="testimonial-photo">
+            <img src="images/avatar-shanai.png">
+          </div>
+          <h4> Shanai Gough</h4>
+          <p>“Their software allows us to track, manage and collaborate on our projects
+            from anywhere. It keeps the whole team in-sync without being intrusive.”</p>
+        </div>
+      </div>
+
+      <div class="btn btn-1 btn-testimonial">Get Started</div>
+
+      <!-- dot circle-->
+      <div class="testimonial-dot">
+        <img src="images/circle-regular.svg" alt="test-1">
+        <img class="active" src="images/circle-regular.svg" alt="test-2">
+        <img src="images/circle-regular.svg" alt="test-3">
+        <img src="images/circle-regular.svg" alt="test-4">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer One -->
+  <section class="footerOne">
+    <div class="footerOne-content">
+      <h2>Simplify how your team works today.</h2>
+      <button class="btn btn-2">Get Started</button>
+    </div>
+
+    <div class="footerOneDesignLeft">
+      <img src="images/bg-tablet-pattern.svg" alt="">
+    </div>
+    <div class="footerOneDesignRight">
+      <img src="images/bg-tablet-pattern.svg" alt="">
+    </div>
+  </section>
+
+  <!-- Footer Two -->
+  <footer class="footerTwo">
+    <div class="footerTwo-content">
+      <div class="footerTwo-contentA">
+        <img class="footer-logo" src="./images/logoFooter.svg" alt="">
+        <img class="icon" src="./images/icon-facebook.svg" alt="">
+        <img class="icon" src="./images/icon-youtube.svg" alt="">
+        <img class="icon" src="./images/icon-twitter.svg" alt="">
+        <img class="icon" src="./images/icon-pinterest.svg" alt="">
+        <img class="icon" src="./images/icon-instagram.svg" alt="">
+      </div>
+
+      <div class="footerTwo-contentBC">
+        <div class="footerTwo-contentB">
+          <a href="#">Home</a>
+          <a href="#">Pricing</a>
+          <a href="#">Products</a>
+          <a href="#">About Us</a>
+        </div>
+
+        <div class="footerTwo-contentC">
+          <a href="#">Careers</a>
+          <a href="#">Community</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+
+      <div class="footerTwo-contentD">
+        <input type="text" placeholder="Updates in your inbox…">
+        <button class="btn btn-1">Go</button>
+      </div>
+    </div>
+
+    <div class="footerTwo-copyright">
+      <p>Copyright 2020. All Rights Reserved</p>
+    </div>
+
+  </footer>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Gaël-Freddy GAGOUDE</a>.
+  </div>
+
+  <!-- JAVASCRIPT -->
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
